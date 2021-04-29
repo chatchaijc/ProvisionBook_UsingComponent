@@ -13,7 +13,7 @@ export class AppComponent {
     this.ParentCount = this.ParentCount + 1;
   }
 
-  clearCount(value) {
+  clearCount(value: number) {
     this.ParentCount = value;
   }
 }
